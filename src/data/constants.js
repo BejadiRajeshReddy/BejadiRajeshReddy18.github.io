@@ -35,6 +35,22 @@ export const skills = [
         name: "Kubernetes",
         image: "https://icon.icepanel.io/Technology/svg/Kubernetes.svg",
       },
+      {
+        name: "Jenkins",
+        image: "https://icon.icepanel.io/Technology/svg/Jenkins.svg",
+      },
+      {
+        name: "Ansible",
+        image: "https://icon.icepanel.io/Technology/svg/Ansible.svg",
+      },
+      {
+        name: "Terraform",
+        image: "https://icon.icepanel.io/Technology/svg/Terraform.svg",
+      },
+      {
+        name: "Python",
+        image: "https://icon.icepanel.io/Technology/svg/Python.svg",
+      }
     ],
   },
   {
@@ -63,24 +79,20 @@ export const skills = [
     ],
   },
   {
-    title: "Machine Learning",
+    title: "Cloud",
     skills: [
       {
-        name: "Python",
-        image: "https://icon.icepanel.io/Technology/svg/Python.svg",
+        name: "AWS",
+        image: "https://icon.icepanel.io/Technology/svg/Amazon-Web-Services.svg",
       },
       {
-        name: "Pandas",
-        image: "https://icon.icepanel.io/Technology/png-shadow-512/Pandas.png",
+        name: "GCP",
+        image: "https://icon.icepanel.io/Technology/svg/Google-Cloud-Platform.svg",
       },
       {
-        name: "NumPy",
-        image: "https://icon.icepanel.io/Technology/svg/NumPy.svg",
-      },
-      {
-        name: "Matplotlib",
-        image: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
-      },
+        name: "Azure",
+        image: "https://icon.icepanel.io/Technology/svg/Azure.svg",
+      }
     ],
   },
   {
@@ -175,7 +187,7 @@ export const projects = [
     description:
       "Implemented a GitOps pipeline using Argo CD and Argo Rollouts for continuous deployment of a web application on Kubernetes. Leveraged Argo CD for declarative application deployments and Argo Rollouts for canary releases. Enabled safe and gradual rollouts of new versions by updating manifests in Git and triggering deployments in the cluster. Automated the entire process, including building Docker images, pushing to a registry, and deploying to Kubernetes.",
     image:
-      "https://private-user-images.githubusercontent.com/64033035/330904333-b77748a3-2461-4a88-92d0-a33fdcd429b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2ODQ5NDEsIm5iZiI6MTcyMzY4NDY0MSwicGF0aCI6Ii82NDAzMzAzNS8zMzA5MDQzMzMtYjc3NzQ4YTMtMjQ2MS00YTg4LTkyZDAtYTMzZmRjZDQyOWIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE1VDAxMTcyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMyYjc4YWM4MGU3MTM2MjEzNWJiMTAzMDliMDYzMDQ3YzEzNmQ3M2Q3MjNiMDA1NGFjMTI0ZjVjMDMyNjNmNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CmNwfxS-QGRfU7pUWSYJCADEeiVkORN3TxHOqkipfFk",
+      "https://private-user-images.githubusercontent.com/64033035/330904333-b77748a3-2461-4a88-92d0-a33fdcd429b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2ODUzMjIsIm5iZiI6MTcyMzY4NTAyMiwicGF0aCI6Ii82NDAzMzAzNS8zMzA5MDQzMzMtYjc3NzQ4YTMtMjQ2MS00YTg4LTkyZDAtYTMzZmRjZDQyOWIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE1VDAxMjM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4NTMzNjEwMmI4MDFhNzQyMzg5MGNiOWI4MzRjYTQ2MjRjZDNhNjFjYmMwZGViODEyZDQwZmY1MzQ3MzExNDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.e4aXZzICT19veECWUAJw3uGQseqBcfjZSUJJQhO_35Y",
     tags: ["ArgoCD", "Docker", "Kubernetes", "Minikube", "Github", "Argo Rollouts", "kubectl", "Python", "Flask"],
     category: "web app",
     github: "https://github.com/BejadiRajeshReddy18/GitOps-Pipeline-with-ArgoCD.git",
@@ -188,7 +200,7 @@ export const projects = [
     description:
       "Established a continuous integration and continuous deployment pipeline using Jenkins. Wrote Docker files for Docker images to be used for application deployment. Managed the source code repository with Git and integrated code quality tools like SonarQube.",
     image:
-      "https://github.com/BejadiRajeshReddy18/Project01/blob/main/CICD.png",
+      "https://private-user-images.githubusercontent.com/64033035/243915184-8ecd3224-7c5f-44d1-8f86-5279c92fc787.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2ODU0NTEsIm5iZiI6MTcyMzY4NTE1MSwicGF0aCI6Ii82NDAzMzAzNS8yNDM5MTUxODQtOGVjZDMyMjQtN2M1Zi00NGQxLThmODYtNTI3OWM5MmZjNzg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE1VDAxMjU1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFmMzhjMTkwNTFkNzcxMTRhMjQ1MmZjNWQyZmU4MDlmNWY5NTg4OTc4N2NkMmZhNTBhODc0N2Y3ZDY2MmJjMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.doLFcmBCmGwwpV-Psia2qNALO574GZxOpO6Lk0OVsH8",
     tags: [
       "Linux",
       "Jenkins",
