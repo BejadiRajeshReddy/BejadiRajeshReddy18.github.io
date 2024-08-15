@@ -175,7 +175,7 @@ export const projects = [
     description:
       "Implemented a GitOps pipeline using Argo CD and Argo Rollouts for continuous deployment of a web application on Kubernetes. Leveraged Argo CD for declarative application deployments and Argo Rollouts for canary releases. Enabled safe and gradual rollouts of new versions by updating manifests in Git and triggering deployments in the cluster. Automated the entire process, including building Docker images, pushing to a registry, and deploying to Kubernetes.",
     image:
-      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*BqhBVtvV8233x6WdlaLOeQ.png",
+      "https://private-user-images.githubusercontent.com/64033035/330904333-b77748a3-2461-4a88-92d0-a33fdcd429b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2ODQ5NDEsIm5iZiI6MTcyMzY4NDY0MSwicGF0aCI6Ii82NDAzMzAzNS8zMzA5MDQzMzMtYjc3NzQ4YTMtMjQ2MS00YTg4LTkyZDAtYTMzZmRjZDQyOWIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE1VDAxMTcyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMyYjc4YWM4MGU3MTM2MjEzNWJiMTAzMDliMDYzMDQ3YzEzNmQ3M2Q3MjNiMDA1NGFjMTI0ZjVjMDMyNjNmNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CmNwfxS-QGRfU7pUWSYJCADEeiVkORN3TxHOqkipfFk",
     tags: ["ArgoCD", "Docker", "Kubernetes", "Minikube", "Github", "Argo Rollouts", "kubectl", "Python", "Flask"],
     category: "web app",
     github: "https://github.com/BejadiRajeshReddy18/GitOps-Pipeline-with-ArgoCD.git",
