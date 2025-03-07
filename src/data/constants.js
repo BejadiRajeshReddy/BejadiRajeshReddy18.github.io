@@ -44,10 +44,6 @@ export const skills = [
         image: "https://icon.icepanel.io/Technology/svg/Ansible.svg",
       },
       {
-        name: "Terraform",
-        image: "https://icon.icepanel.io/Technology/svg/Terraform.svg",
-      },
-      {
         name: "Python",
         image: "https://icon.icepanel.io/Technology/svg/Python.svg",
       }
